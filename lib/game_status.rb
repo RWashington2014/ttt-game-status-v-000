@@ -14,6 +14,6 @@ end
 
 def full?(board)
 
-  board.all
+  #board.all
 
 end
