@@ -8,9 +8,12 @@ WIN_COMBINATIONS = [[0, 1, 2], [3, 4, 5], [6, 7, 8], [0, 3, 6], [1, 4, 7], [2, 5
 
 def won?(board)
 
-  WIN_COMBINATIONS.each do |win_array|
+  win_combo = []
 
+  win_combo = WIN_COMBINATIONS.each do |win_array|
+    win_combo << win_array
   end
+  
 
   WIN_COMBINATIONS.any? { |combo| combo == true  }
 
