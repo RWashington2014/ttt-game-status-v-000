@@ -15,6 +15,12 @@ end
 def full?(board)
 
   board.all? do |character|
-    character == "X" || character == "O"
+    character == position_taken(board, index)
   end
+end
+
+def draw?(board)
+
+
+
 end
