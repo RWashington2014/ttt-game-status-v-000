@@ -12,8 +12,8 @@ def won?(board)
 
   end
 
-  #if WIN_COMBINATIONS.any? { |combo| combo == true  }
-  #end
+  if WIN_COMBINATIONS.any? { |combo| combo == true  }
+  end
 
 
   #WIN_COMBINATIONS.select do |win_array|
