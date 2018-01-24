@@ -15,7 +15,7 @@ end
 def full?(board)
 
   board.all? do |character|
-    character != "X"
+    character == "X" || character == "O"
   end
 
 end
