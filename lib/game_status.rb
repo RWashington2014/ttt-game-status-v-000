@@ -15,8 +15,7 @@ def won?(board)
   #end
 
 
-  if WIN_COMBINATIONS.select { |top_row_win| top_row_win == WIN_COMBINATIONS[0] }
-  end
+ WIN_COMBINATIONS.select { |top_row_win| top_row_win == WIN_COMBINATIONS[0] }
 
 
 
