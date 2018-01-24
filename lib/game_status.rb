@@ -15,7 +15,7 @@ end
 def full?(board)
 
   board.all? do |character|
-    character == position_taken(board)
+    character == position_taken?(board, index)
   end
 end
 
